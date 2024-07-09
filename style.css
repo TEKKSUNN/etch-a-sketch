@@ -1,0 +1,41 @@
+* {
+  font-family:  sans-serif;
+}
+
+.dark-blue-bg {
+  background-color: darkblue;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.fill-width {
+  width: auto;
+}
+
+.gap-8px {
+  gap: 8px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#header {
+  padding: 16px;
+  height: 10vh;
+}
+
+.white-fg {
+  color: whitesmoke;
+}
