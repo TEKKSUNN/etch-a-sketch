@@ -6,8 +6,22 @@
   background-color: darkblue;
 }
 
+.dark-blue-fg {
+  color: darkblue;
+}
+
 .flex {
   display: flex;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
 }
 
 .center {
@@ -23,7 +37,7 @@
   width: auto;
 }
 
-.gap-8px {
+.gap-8 {
   gap: 8px;
 }
 
@@ -32,10 +46,52 @@
 }
 
 #header {
-  padding: 16px;
-  height: 10vh;
+  height: 7.5vh;
+  margin-bottom: 2vh;
+}
+
+.white-bg {
+  background-color: whitesmoke;
 }
 
 .white-fg {
   color: whitesmoke;
+}
+
+.round-border {
+  border-radius: 8px;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.pad-4 {
+  padding: 4px;
+}
+
+.pad-8 {
+  padding: 8px;
+}
+
+.pad-16 {
+  padding: 16px;
+}
+
+#container {
+  border: 1px solid black;
+  width: 960px;
+  height: 960px;
+}
+
+.square-group {
+  flex: 1;
+}
+
+.squares {
+  flex: 1;
 }

@@ -2,16 +2,19 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <title>Etch-A-Sketch</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer></script>
   </head>
   <body>
-    <header class="dark-blue-bg flex center border-box fill-width gap-8px" id="header">
+    <header class="dark-blue-bg flex center border-box fill-width gap-8 pad-16" id="header">
       <span class="text white-fg bold">Size: </span>
-      <input type="text" name="size" id="size">
+      <input class="round-border pad-4" type="text" placeholder="1:1 ratio (e.g. 16 = 16x16)" name="size" id="size">
+      <button class="btn white-bg dark-blue-fg round-border pad-4" id="change-size">Change</button>
+      <button class="btn white-bg dark-blue-fg round-border pad-4" id="reset-grid">Reset</button>
     </header>
-    <main>
-      <div id="container"></div>
+    <main class="flex center">
+      <div class="flex-column" id="container"></div>
     </main>
   </body>
 </html>
